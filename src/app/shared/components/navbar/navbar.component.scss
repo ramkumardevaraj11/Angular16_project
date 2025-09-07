@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  background: #222;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+
+  &.active {
+    color: #00c6ff;
+    font-weight: bold;
+  }
+
+  &:hover {
+    color: #ff9800;
+  }
+}

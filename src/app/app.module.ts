@@ -7,18 +7,22 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { DashboardComponent } from './features/dashboard/dashboard.component';
 import { ProfileComponent } from './features/profile/profile.component';
 import { SettingsComponent } from './features/profile/settings/settings.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NavbarComponent } from './shared/components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NotFoundComponent,
-    DashboardComponent,
-    ProfileComponent,
-    SettingsComponent
+    // DashboardComponent,
+    // ProfileComponent,
+    SettingsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
